@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-V
+
     const tarjetasProfesional = document.querySelectorAll('.profesional-card');
     const seccionSeleccion = document.getElementById('seleccion-profesional');
     const infoContenedor = document.getElementById('profesional-info-seleccionado');
