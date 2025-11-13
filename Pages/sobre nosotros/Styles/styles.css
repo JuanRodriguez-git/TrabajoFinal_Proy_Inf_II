@@ -1,0 +1,147 @@
+.sobre-nosotros {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fff5e6, #ffe0b2);
+}
+
+.sobre-contenido {
+  max-width: 800px;
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.sobre-contenido h2 {
+  color: #ff7e5f;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.sobre-contenido p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.05em;
+  margin-bottom: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sobre-contenido strong {
+  color: #ff7e5f;
+}
+
+.equipo h3 {
+  color: #ff7e5f;
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+.equipo ul {
+    list-style: none;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+  margin-top: auto;
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+}
+
+.footer-contenido h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #ffb347;
+}
+
+.footer-contenido p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.footer-redes a {
+  color: #ffb347;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.footer-redes a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.footer-copy {
+  margin-top: 25px;
+  font-size: 0.9em;
+  color: #bbb;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #fff5e6, #ffe0b2);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+.menu-izq {
+  display: flex;
+  align-items: center;
+}
+
+.menu-izq img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+.menu-izq a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.menu-izq a:hover {
+  color: blue;
+}
+
+.menu-der {
+  display: flex;
+  align-items: center;
+}
+
+.menu-der i {
+  font-size: 18px;
+  margin-left: 12px;
+  cursor: pointer;
+  color: black;
+}
+
+.menu-der i:hover {
+  color: blue;
+}
