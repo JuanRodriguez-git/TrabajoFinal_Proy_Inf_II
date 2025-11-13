@@ -145,3 +145,59 @@ nav {
 .menu-der i:hover {
   color: blue;
 }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .menu-izq {
+    flex-direction: column;
+  }
+
+  .menu-izq img {
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .menu-izq a {
+    margin: 5px 0;
+    font-size: 0.95em;
+  }
+
+  .menu-der {
+    margin-top: 10px;
+  }
+
+  .sobre-contenido {
+    padding: 25px 20px;
+    width: 90%;
+  }
+
+  .sobre-contenido h2 {
+    font-size: 1.6em;
+  }
+
+  .sobre-contenido p {
+    font-size: 0.95em;
+  }
+
+  .equipo h3 {
+    font-size: 1.3em;
+  }
+
+  footer {
+    padding: 25px 10px;
+  }
+
+  .footer-contenido p {
+    font-size: 0.9em;
+  }
+
+  .footer-redes a {
+    font-size: 1.2em;
+    margin: 0 8px;
+  }
+}

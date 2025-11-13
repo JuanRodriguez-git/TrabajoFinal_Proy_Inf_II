@@ -178,3 +178,73 @@ nav {
 .menu-der i:hover {
   color: blue;
 }
+
+@media (max-width: 600px) {
+
+  nav {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu-izq {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-izq img {
+    height: 70px;
+    margin-bottom: 5px;
+  }
+
+  .menu-izq a {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .menu-der {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .contacto-header {
+    margin: 30px 10px 20px;
+  }
+
+  .contacto-header h2 {
+    font-size: 1.6em;
+  }
+
+  .contacto-header p {
+    font-size: 0.9em;
+  }
+
+  .contacto-formulario form {
+    width: 90%;
+    padding: 25px 20px;
+  }
+
+  .contacto-formulario input,
+  .contacto-formulario textarea {
+    font-size: 0.9em;
+  }
+
+  footer {
+    padding: 25px 10px;
+  }
+
+  .footer-contenido h3 {
+    font-size: 1.4em;
+  }
+
+  .footer-contenido p {
+    font-size: 0.9em;
+  }
+
+  .footer-copy {
+    font-size: 0.8em;
+  }
+}

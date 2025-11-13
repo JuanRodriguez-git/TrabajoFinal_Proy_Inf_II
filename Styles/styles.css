@@ -354,3 +354,104 @@ body {
   color: #f1c40f;
   margin-right: 2px;
 }
+
+@media (max-width: 600px) {
+
+  nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu-izq {
+    flex-direction: column;
+  }
+
+  .menu-izq img {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .menu-izq a {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .menu-der {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .barra-central {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .barra-central input {
+    width: 80%;
+    font-size: 14px;
+    border-radius: 25px;
+    border-right: 1px solid #ffa500;
+    margin-bottom: 10px;
+  }
+
+  .barra-central button {
+    width: 50%;
+    border-radius: 25px;
+  }
+
+  .opciones-body {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .opciones-body div {
+    width: 80%;
+    margin-right: 0;
+  }
+
+  .plomero, .electricista, .albañil {
+    width: 90%;
+    height: 180px;
+  }
+
+  .plomero span, .electricista span, .albañil span {
+    font-size: 16px;
+  }
+
+  .dedicacion {
+    width: 90%;
+    font-size: 1.1em;
+    padding: 20px;
+  }
+
+  .opiniones-contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .opinion {
+    width: 90%;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+
+  .footer-contenido h3 {
+    font-size: 1.4em;
+  }
+
+  .footer-contenido p {
+    font-size: 0.9em;
+  }
+
+  .footer-copy p {
+    font-size: 0.8em;
+  }
+}

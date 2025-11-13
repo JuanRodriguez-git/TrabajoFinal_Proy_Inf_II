@@ -231,3 +231,57 @@ footer {
     font-size: 1.1em;
     max-width: 600px;
 }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+
+  .menu-izq {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-izq img {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .menu-izq a {
+    margin: 5px 0;
+  }
+
+  .menu-der {
+    margin-top: 10px;
+  }
+
+  .servicios-lista {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .profesionales-lista-horizontal {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .profesional-card {
+    width: 120px;
+  }
+
+  #profesional-info-seleccionado {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+
+  .footer-contenido p {
+    font-size: 0.9em;
+  }
+}
