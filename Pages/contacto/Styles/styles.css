@@ -1,3 +1,4 @@
+/* Todo el html y body */
 html, body {
   height: 100%;
   margin: 0;
@@ -5,11 +6,11 @@ html, body {
   display: flex;
   flex-direction: column;
 }
-
+/* Todo el body */
 body {
   background: linear-gradient(135deg, #fff5e6, #ffe0b2);
 }
-
+/* Toda al tarjeta del formulario de contacto */
 .contacto-formulario {
   flex: 1;
   display: flex;
@@ -18,7 +19,7 @@ body {
   margin-bottom: 0;
 }
 
-
+/* titulo y texto de la pagina */
 .contacto-header {
   text-align: center;
   margin: 50px 20px 30px;
@@ -43,7 +44,7 @@ body {
   width: 400px;
 
 }
-
+/* Texto que dice lo que tenes que escribir */
 .contacto-formulario label {
   display:block;
   margin-bottom: 5px;
@@ -51,6 +52,7 @@ body {
   color: #333;
 }
 
+/* Texto que escribis */
 .contacto-formulario input,
 .contacto-formulario textarea {
   width: 100%;
@@ -61,7 +63,7 @@ body {
   font-size: 1em;
   resize: none;
 }
-
+/* Boton de enviar */
 .contacto-formulario button {
   background: #ff7e5f;
   color: white;
@@ -77,7 +79,7 @@ body {
 .contacto-formulario button:hover {
   background: #feb47b;
 }
-
+/* pie de pagina */
 footer {
   margin-top: auto;
   background: #222;
@@ -132,7 +134,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-
+/* Parte superior de la pagina (nav) */
 nav {
   display: flex;
   justify-content: space-between;
@@ -141,12 +143,12 @@ nav {
   padding: 10px 20px;
   height: 50px;
 }
-
+/* seccion izquierda del nav */
 .menu-izq {
   display: flex;
   align-items: center;
 }
-
+/* logo del nav */
 .menu-izq img {
   height: 100px;
   margin-right: 10px;
@@ -162,7 +164,7 @@ nav {
 .menu-izq a:hover {
   color: blue;
 }
-
+/* Seccion derecha del nav */
 .menu-der {
   display: flex;
   align-items: center;
@@ -178,7 +180,7 @@ nav {
 .menu-der i:hover {
   color: blue;
 }
-
+/* Responsive */
 @media (max-width: 600px) {
 
   nav {

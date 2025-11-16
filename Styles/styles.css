@@ -1,3 +1,4 @@
+/* Nav (Parte superior de la pagina) */
 nav {
   display: flex;
   justify-content: space-between;
@@ -7,16 +8,19 @@ nav {
   height: 50px;
 }
 
+/* Menu izquierdo del nav */
 .menu-izq {
   display: flex;
   align-items: center;
 }
 
+/* Logo en el nav */
 .menu-izq img {
   height: 100px;
   margin-right: 10px;
 }
 
+/* Enlaces de la parte izquierda del nav */
 .menu-izq a {
   margin-right: 15px;
   text-decoration: none;
@@ -24,10 +28,12 @@ nav {
   font-family: Arial, sans-serif;
 }
 
+
 .menu-izq a:hover {
   color: blue;
 }
 
+/* menu derecho del nav */
 .menu-der {
   display: flex;
   align-items: center;
@@ -44,11 +50,13 @@ nav {
   color: blue;
 }
 
+/* Barra de busqueda*/
 .barra-central {
   display: flex;
   justify-content: center;
   margin: 30px 0;
 }
+
 
 .barra-central input {
   width: 300px;
@@ -60,6 +68,7 @@ nav {
   outline: none;
 }
 
+/* Boton de la barra de busqueda(lupa) */
 .barra-central button {
   padding: 10px 15px;
   border: 1px solid #aaa;
@@ -78,6 +87,7 @@ nav {
   background-color: #ddd;
 }
 
+/* Sugerencias del body */
 .opciones-body {
   display: flex;
   justify-content: center;
@@ -86,6 +96,7 @@ nav {
   flex-wrap: wrap;
 }
 
+/* Sugerencia plomero */
 .plomero {
   position: relative;
   display: block;
@@ -98,14 +109,14 @@ nav {
   flex-shrink: 0;
   margin-right: 30px;
 }
-
+/* Foto del plomero */
 .plomero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s;
 }
-
+/* Texto que dice plomero dentro de la imagen */
 .plomero span {
   position: absolute;
   bottom: 0;
@@ -124,7 +135,7 @@ nav {
 .plomero:hover img {
   transform: scale(1.05);
 }
-
+/* Sugerencia electricista */
 .electricista {
   position: relative;
   display: block;
@@ -137,14 +148,14 @@ nav {
   flex-shrink: 0;
   margin-right: 30px;
 }
-
+/* Foto del electricista */
 .electricista img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s;
 }
-
+/* Texto que dice electricista dentro de su imagen */
 .electricista span {
   position: absolute;
   bottom: 0;
@@ -163,7 +174,7 @@ nav {
 .electricista:hover img {
   transform: scale(1.05);
 }
-
+/* Sugerencia albañil */
 .albañil {
   position: relative;
   display: block;
@@ -176,14 +187,14 @@ nav {
   flex-shrink: 0;
   margin-right: 30px;
 }
-
+/* Imagen albañil */
 .albañil img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s;
 }
-
+/* Texto que dice albañil dentro de su imagen */
 .albañil span {
   position: absolute;
   bottom: 0;
@@ -203,6 +214,7 @@ nav {
   transform: scale(1.05);
 }
 
+/* Texto sugerencias */
 .sugerencias {
   text-align: center;
   margin: 50px 0;
@@ -227,6 +239,7 @@ nav {
   background-color: #ffa500;
 }
 
+/* Texto del proposito de changas ya */
 .dedicacion {
   margin: 50px auto;
   width: 80%;
@@ -240,7 +253,7 @@ nav {
   letter-spacing: 1px;
   font-family: 'Poppins', sans-serif;
 }
-
+/* Pie de pagina */
 footer {
   margin-top: auto;
   background: #222;
@@ -249,21 +262,21 @@ footer {
   padding: 40px 20px;
   box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
 }
-
+/* Titulo del footer */
 .footer-contenido h3 {
   font-size: 1.8em;
   margin-bottom: 15px;
   letter-spacing: 2px;
   color: #ffb347;
 }
-
+/* texto del footer */
 .footer-contenido p {
   max-width: 600px;
   margin: 0 auto 25px;
   font-size: 1em;
   line-height: 1.6;
 }
-
+/* redes del footer */
 .footer-redes a {
   color: #ffb347;
   margin: 0 10px;
@@ -275,19 +288,19 @@ footer {
   color: #fff;
   transform: scale(1.2);
 }
-
+/* texto del footer */
 .footer-copy {
   margin-top: 25px;
   font-size: 0.9em;
   color: #bbb;
 }
-
+/* html y body */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
-
+/* todo el body */
 body {
   display: flex;
   flex-direction: column;
@@ -306,13 +319,13 @@ body {
   letter-spacing: 1px;
   font-family: 'Poppins', sans-serif;
 }
-
+/* Tarjetas de opiniones */
 .opiniones {
   width: 90%;
   margin: 50px auto;
   text-align: center;
 }
-
+/* Titulos de las opiniones */
 .opiniones h3 {
   font-size: 1.8em;
   margin-bottom: 30px;
@@ -336,7 +349,7 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   text-align: left;
 }
-
+/* texto de la opinion */
 .opinion p {
   font-size: 1em;
   margin-bottom: 10px;
@@ -349,14 +362,14 @@ body {
   margin-bottom: 10px;
   color: #555;
 }
-
+/* logos de estrellas en las tarjetas de opinion */
 .estrellas i {
   color: #f1c40f;
   margin-right: 2px;
 }
 
+/* Responsive */
 @media (max-width: 600px) {
-
   nav {
     flex-wrap: wrap;
     height: auto;

@@ -1,3 +1,4 @@
+/* Tarjeta sobre nosotros */
 .sobre-nosotros {
   flex: 1;
   display: flex;
@@ -15,13 +16,13 @@
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   text-align: center;
 }
-
+/* Encabezados h2 de la tarjeta sobre nosotros */
 .sobre-contenido h2 {
   color: #ff7e5f;
   font-size: 2.2em;
   margin-bottom: 20px;
 }
-
+/* Parrafos de la tarjeta sobre nosotros */
 .sobre-contenido p {
   color: #333;
   line-height: 1.6;
@@ -29,7 +30,7 @@
   margin-bottom: 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* Texto en negrito (Strong) de la tarjeta sobre nosotrs */
 .sobre-contenido strong {
   color: #ff7e5f;
 }
@@ -45,6 +46,7 @@
     padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Pie de pagina */
 footer {
   margin-top: auto;
   background: #222;
@@ -99,7 +101,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-
+/* Cabeza de la pagina */
 nav {
   display: flex;
   justify-content: space-between;
@@ -108,12 +110,12 @@ nav {
   padding: 10px 20px;
   height: 50px;
 }
-
+/* Seccion izquierda del nav */
 .menu-izq {
   display: flex;
   align-items: center;
 }
-
+/* Logo del nav */
 .menu-izq img {
   height: 100px;
   margin-right: 10px;
@@ -129,7 +131,7 @@ nav {
 .menu-izq a:hover {
   color: blue;
 }
-
+/* Seccion derecha del nav */
 .menu-der {
   display: flex;
   align-items: center;
@@ -145,8 +147,54 @@ nav {
 .menu-der i:hover {
   color: blue;
 }
+/* Tarjetas de mision, vision y ventajas */
+.tarjetas-info {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fff5e6, #ffe0b2);
+  flex-wrap: wrap;
+}
 
+.tarjeta {
+  background: #fff;
+  width: 300px;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-8px);
+}
+/* Encabezado de las tarjetas */
+.tarjeta h3 {
+  color: #ff7e5f;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+/* Parrafos de las tarjetas */
+.tarjeta p {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1em;
+  font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Responsive */
 @media (max-width: 768px) {
+   .tarjetas-info {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+  }
+
+  .tarjeta {
+    width: 90%;
+  }
   nav {
     flex-direction: column;
     height: auto;
